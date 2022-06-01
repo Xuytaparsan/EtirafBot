@@ -1,0 +1,56 @@
+{
+    "name": "istediğiniz bir ad",
+    "description": "Açıklama.",
+    "logo": "fotoğraf linki",
+    "keywords": [
+        "anahtar kelime",
+        "anahtar kelime",
+        "anahtar kelime",
+        "anahtar kelime",
+        "anahtar kelime"
+    ],
+    "repository": "repo linki",
+    "success_url": "istediğiniz bir link",
+    "image": "heroku/python",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "env": {
+        "api id": {
+            "description": "Telegram..",
+            "value": "",
+            "required": true
+        },
+        "api hash": {
+            "description": "Telegram",
+            "value": "",
+            "required": true
+        },
+        "TOKEN": {
+            "description": "Telegram.",
+            "value": "",
+            "required": true
+        },
+        "Bot İd": {
+            "description": "Telegram"
+            "value": "",
+            "required": true
+        },
+        "username": {
+            "description": "Telegram",
+            "value": "",
+            "required": true
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "https://github.com/Xuytaparsan/EtirafBot"
+        },
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
